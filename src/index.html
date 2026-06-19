@@ -5,51 +5,51 @@
 <title>IFSI – Homéostasie</title>
 
 <style>
-  body {
-    font-family: Arial;
-    text-align: center;
-  }
+body {
+  font-family: Arial;
+  text-align: center;
+}
 
-  .container {
-    position: relative;
-    display: inline-block;
-  }
+.container {
+  position: relative;
+  display: inline-block;
+}
 
-  img {
-    width: 800px;
-  }
+img {
+  width: 1000px;
+}
 
-  .zone {
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    background-color: rgba(0, 123, 255, 0.6);
-    color: white;
-    border-radius: 8px;
-    line-height: 40px;
-  }
-
+/* boutons invisibles ou semi-transparents */
+.zone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 50px;
+  background: rgba(0, 123, 255, 0.6);
+  color: white;
+  line-height: 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
 </style>
-
 </head>
+
 <body>
 
-<h1>Homéostasie – Navigation par fonctions</h1>
+<h1>Navigation par fonctions – Homéostasie</h1>
 
 <div class="container">
 
-  homeostasie.png
+  <img src="homeostasie.png">
 
-  <!-- ZONES CLIQUABLES -->
-  locomoteur.htmlLocomoteur</div>
+  <!-- COLONNE GAUCHE -->
+  <a class="zone" style="top:15%; left:15%;" href="locomoteur.html">Locomoteur</a>
+  <a class="zone" style="top:25%; left:15%;" href="respiratoire.html">Respiration</a>
+  <a class="zone" style="top:35%; left:15%;" href="cardio.html">Cardio</a>
+  <a class="zone" style="top:45%; left:15%;" href="digestif.html">Digestif</a>
+  <a class="zone" style="top:55%; left:15%;" href="urinaire.html">Urinaire</a>
+  <a class="zone" style="top:65%; left:15%;" href="endocrine.html">Endocrine</a>
+  <a class="zone" style="top:75%; left:15%;" href="reproduction.html">Reproduction</a>
 
-  respiratoire.htmlRespiration</div>
-
-  cardio.htmlCardio</div>
-
-</div>
-
-</body>
-</html>
+  <!-- COLONNE DROITE -->
