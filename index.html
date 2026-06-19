@@ -2,54 +2,48 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>IFSI – Homéostasie</title>
+<title>Homéostasie IFSI</title>
 
 <style>
 body {
-  font-family: Arial;
   text-align: center;
-}
-
-.container {
-  position: relative;
-  display: inline-block;
+  font-family: Arial;
 }
 
 img {
-  width: 1000px;
-}
-
-/* boutons invisibles ou semi-transparents */
-.zone {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 140px;
-  height: 50px;
-  background: rgba(0, 123, 255, 0.6);
-  color: white;
-  line-height: 50px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 14px;
+  max-width: 1000px;
 }
 </style>
+
 </head>
 
 <body>
 
-<h1>Navigation par fonctions – Homéostasie</h1>
+<h1>Navigation par fonctions</h1>
 
-<div class="container">
+<img src="homeostasie.png" usemap="#map">
 
-  <img src="homeostasie.png">
+<map name="map">
 
-  <!-- COLONNE GAUCHE -->
-  <a class="zone" style="top:15%; left:15%;" href="locomoteur.html">Locomoteur</a>
-  <a class="zone" style="top:25%; left:15%;" href="respiratoire.html">Respiration</a>
-  <a class="zone" style="top:35%; left:15%;" href="cardio.html">Cardio</a>
-  <a class="zone" style="top:45%; left:15%;" href="digestif.html">Digestif</a>
-  <a class="zone" style="top:55%; left:15%;" href="urinaire.html">Urinaire</a>
-  <a class="zone" style="top:65%; left:15%;" href="endocrine.html">Endocrine</a>
-  <a class="zone" style="top:75%; left:15%;" href="reproduction.html">Reproduction</a>
+  <!-- CÔTÉ GAUCHE -->
+  <area shape="rect" coords="50,150,250,220" href="locomoteur.html">
+  <area shape="rect" coords="50,230,250,300" href="respiratoire.html">
+  <area shape="rect" coords="50,310,250,380" href="cardio.html">
+  <area shape="rect" coords="50,390,250,460" href="digestif.html">
+  <area shape="rect" coords="50,470,250,540" href="urinaire.html">
+  <area shape="rect" coords="50,550,250,620" href="endocrine.html">
+  <area shape="rect" coords="50,630,250,700" href="reproduction.html">
 
-  <!-- COLONNE DROITE -->
+  <!-- CÔTÉ DROIT -->
+  <area shape="rect" coords="750,150,950,220" href="tegumentaire.html">
+  <area shape="rect" coords="750,230,950,300" href="neuro.html">
+  <area shape="rect" coords="750,310,950,380" href="immunitaire.html">
+  <area shape="rect" coords="750,390,950,460" href="sang.html">
+  <area shape="rect" coords="750,470,950,540" href="sensorielle.html">
+  <area shape="rect" coords="750,550,950,620" href="psychique.html">
+  <area shape="rect" coords="750,630,950,700" href="metabolique.html">
+
+</map>
+
+</body>
+</html>
